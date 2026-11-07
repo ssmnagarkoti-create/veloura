@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Veloura. We'd love to hear from you.">
+  <title>Contact Us | VELOURA</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Italiana&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="announcement-bar">
+    Thoughtful fashion. Timeless expression.
+  </div>
+
+  <header class="site-header">
+    <a href="index.html" class="logo">veloura<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="about.html">Our Story</a>
+      <a href="shop.html">Shop</a>
+      <a href="collections.html">Collections</a>
+      <a href="lookbook.html">Lookbook</a>
+      <a href="journal.html">Journal</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <a href="shop.html" class="header-link">EXPLORE</a>
+  </header>
+
+  <main>
+
+    <!-- CONTACT HERO -->
+    <section class="contact-hero">
+      <div class="contact-hero-image"></div>
+
+      <div class="contact-hero-content">
+        <p class="eyebrow">WE'RE HERE FOR YOU</p>
+        <h1>Let's start a <em>conversation.</em></h1>
+        <p>
+          Questions, thoughts or simply a little hello?
+          We'd love to hear from you.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT INTRO -->
+    <section class="contact-intro">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>A little note can <em>go a long way.</em></h2>
+      <p>
+        At Veloura, we believe every detail matters.
+        Whether you need help with an order, want to know
+        more about a collection or simply want to connect,
+        our team is happy to help.
+      </p>
+    </section>
+
+    <!-- CONTACT INFORMATION -->
+    <section class="contact-information">
+
+      <div class="contact-info-card">
+        <span class="contact-info-number">01</span>
+        <h3>Customer care</h3>
+        <p>
+          Need help with a product, order or general enquiry?
+          Send us a message.
+        </p>
+        <a href="mailto:hello@veloura.example">SEND AN EMAIL →</a>
+      </div>
+
+      <div class="contact-info-card">
+        <span class="contact-info-number">02</span>
+        <h3>Collaborations</h3>
+        <p>
+          Interested in creative projects, partnerships
+          or working together?
+        </p>
+        <a href="mailto:collab@veloura.example">LET'S CONNECT →</a>
+      </div>
+
+      <div class="contact-info-card">
+        <span class="contact-info-number">03</span>
+        <h3>Follow our story</h3>
+        <p>
+          Discover new collections, styling inspiration
+          and little moments from our world.
+        </p>
+        <a href="#">FOLLOW ALONG →</a>
+      </div>
+
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="contact-form-section">
+
+      <div class="contact-form-image">
+        <img
+          src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=90"
+          alt="Elegant fashion inspiration">
+        <div class="contact-image-caption">
+          <p>THE VELOURA EXPERIENCE</p>
+          <span>Thoughtful details. Meaningful connections.</span>
+        </div>
+      </div>
+
+      <div class="contact-form-content">
+
+        <p class="eyebrow">WRITE TO US</p>
+        <h2>We'd love to <em>hear from you.</em></h2>
+
+        <p class="contact-form-description">
+          Fill in the details below and leave us a little note.
+          We'll be happy to hear what you have to say.
+        </p>
+
+        <form class="contact-form" id="contactForm">
+
+          <div class="contact-field-row">
+            <div class="contact-field">
+              <label for="contactName">YOUR NAME</label>
+              <input
+                type="text"
+                id="contactName"
+                name="name"
+                placeholder="Your name"
+                required>
+            </div>
+
+            <div class="contact-field">
+              <label for="contactEmail">EMAIL ADDRESS</label>
+              <input
+                type="email"
+                id="contactEmail"
+                name="email"
+                placeholder="Your email"
+                required>
+            </div>
+          </div>
+
+          <div class="contact-field">
+            <label for="contactSubject">SUBJECT</label>
+            <select id="contactSubject" name="subject" required>
+              <option value="">Choose a subject</option>
+              <option value="Order enquiry">Order enquiry</option>
+              <option value="Product question">Product question</option>
+              <option value="Collaboration">Collaboration</option>
+              <option value="General question">General question</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="contact-field">
+            <label for="contactMessage">YOUR MESSAGE</label>
+            <textarea
+              id="contactMessage"
+              name="message"
+              rows="6"
+              placeholder="Write your message here..."
+              required></textarea>
+          </div>
+
+          <button type="submit" class="contact-submit-button">
+            SEND YOUR MESSAGE →
+          </button>
+
+          <p class="contact-form-message" id="contactFormMessage">
+            We look forward to hearing from you.
+          </p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+    <!-- BRAND QUOTE -->
+    <section class="contact-quote">
+      <p class="eyebrow">A NOTE FROM VELOURA</p>
+      <h2>Good things begin with <em>a hello.</em></h2>
+      <p>Thank you for being a part of our story.</p>
+    </section>
+
+    <!-- FAQ PREVIEW -->
+    <section class="contact-faq-preview">
+      <div>
+        <p class="eyebrow">NEED A QUICK ANSWER?</p>
+        <h2>Some questions, <em>answered.</em></h2>
+        <p>
+          Find helpful information about products,
+          orders and the Veloura experience.
+        </p>
+      </div>
+
+      <a href="faq.html" class="btn btn-dark">VISIT OUR FAQs</a>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="footer-main">
+
+      <div class="footer-brand">
+        <a href="index.html" class="logo">veloura<span>.</span></a>
+        <p>Thoughtful fashion for the art of everyday living.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>EXPLORE</h4>
+        <a href="about.html">Our Story</a>
+        <a href="shop.html">Shop All</a>
+        <a href="collections.html">Collections</a>
+        <a href="lookbook.html">Lookbook</a>
+      </div>
+
+      <div class="footer-column">
+        <h4>INFORMATION</h4>
+        <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQs</a>
+        <a href="journal.html">Journal</a>
+      </div>
+
+      <div class="footer-column">
+        <h4>FOLLOW ALONG</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span data-year></span> VELOURA. ALL RIGHTS RESERVED.</p>
+      <p>MADE WITH INTENTION.</p>
+    </div>
+
+  </footer>
+
+</body>
+</html>
